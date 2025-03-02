@@ -837,8 +837,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   audioSource: {fileID: 471950342}
-  footstepSound: {fileID: 8300000, guid: a1fb2aae436ba5345b8880096971343e, type: 3}
-  jumpSound: {fileID: 8300000, guid: 8a04f022e54536d4cb863931f963892b, type: 3}
+  footstepSound: {fileID: 8300000, guid: 92ee2aab6ce5d3f4891e2206d514135b, type: 3}
+  jumpSound: {fileID: 8300000, guid: b79234d925fbbf14f849651e2fd78656, type: 3}
 --- !u!58 &471950340
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1009,7 +1009,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477018915}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: bac55c12237e97e4c90afea555c448be, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 6baaa64ff0dfb4848999cbc83f84c4f2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1024,7 +1024,7 @@ VideoPlayer:
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
-  - {fileID: 0}
+  - {fileID: 471950342}
   m_DirectAudioVolumes:
   - 1
   m_Url: 
@@ -32562,7 +32562,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788613522}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: f471d15c2cafb3b4db231c2aa8711eae, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 8712ab20095573045957a5a3af8b1976, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 519420031}
@@ -32577,7 +32577,7 @@ VideoPlayer:
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
-  - {fileID: 0}
+  - {fileID: 471950342}
   m_DirectAudioVolumes:
   - 1
   m_Url: 
