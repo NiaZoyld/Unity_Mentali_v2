@@ -4,7 +4,8 @@ using UnityEngine.Video;
 public class EndLevel : MonoBehaviour
 {
     public VideoPlayer videoPlayer; 
-    public GameObject player; 
+    public GameObject player;
+    public RenderTexture texture;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,5 +26,11 @@ public class EndLevel : MonoBehaviour
     void EndGame(VideoPlayer vp)
     {
         Debug.Log("Cinématique terminée, fin du jeu !");
+        texture.Release();
+    }
+
+    void OnApplicationQuit()
+    {
+        texture.Release();
     }
 }
